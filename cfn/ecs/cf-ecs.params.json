@@ -13,7 +13,7 @@
       
     },
    {
-      "ParameterKey": "AWS::Region",
+      "ParameterKey": "region",
       "ParameterValue": "ap-south-1"
       
     }
