@@ -49,7 +49,7 @@ Resources:
           PortMappings:
             - ContainerPort: 3000
             # due a bug in CDK we can't do this map, so we will have to use same port 5000
-            # - HostPort: 8881 
+            # - HostPort: 8
             # - Protocol: tcp
       RequiresCompatibilities:
         - EC2
