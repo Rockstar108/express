@@ -45,7 +45,7 @@ Resources:
       ContainerDefinitions:
         - Name: !Join ["-", [!Ref PrefixName, "container"]]  
           #Image: 430801748316.dkr.ecr.ap-south-1.amazonaws.com/sample-test:1
-          Image: !Join ["", [!Ref AWSAccountId, ".dkr.ecr.",!Ref 'AWS::Region','.amazonaws.com/',!Ref PrefixName, ":","$(git rev-parse --short HEAD)"]]
+          Image: !Join ["", [!Ref AWSAccountId, ".dkr.ecr.",!Ref 'AWS::Region','.amazonaws.com/',!Ref PrefixName]]
           PortMappings:
             - ContainerPort: 3000
             # due a bug in CDK we can't do this map, so we will have to use same port 5000
