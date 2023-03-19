@@ -11,5 +11,10 @@
       "ParameterKey": "SubnetID",
       "ParameterValue": "subnet-031a072aae5ae8dc1"
       
-    }
+    },
+   {
+      "ParameterKey": "AWS::Region",
+      "ParameterValue": "ap-south-1"
+      
+    },
   ]
